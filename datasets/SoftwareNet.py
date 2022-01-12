@@ -61,7 +61,7 @@ train_mode = 2
 # 1 : training only on synthetic 
 # 2 : training on synthetic + cambridge, prediction on both 
 # 3 : training on synthetic + cambridge, prediction on only cambridge 
-# 3 : training on only cambridge
+# 4 : training on only cambridge
 
 class SoftwareNetDataset(PointCloudDataset):
     """Class to handle S3DIS dataset."""
